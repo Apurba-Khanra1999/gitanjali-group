@@ -1289,7 +1289,7 @@ p {
 }
 
 .gotoTop {
-    bottom: 150px;
+    bottom: 50px;
     position: fixed;
     right: 30px;
     transition: .3s ease-in-out;
