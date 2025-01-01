@@ -1,0 +1,437 @@
+.banner-h2 {
+    height: 345px;
+}
+
+.inner-banner-content h2 span {
+    margin-top: 23px;
+    display: block;
+    z-index: 1;
+    position: relative;
+    text-shadow: none;
+}
+
+.highlight-sec {
+    padding: 27px;
+    margin-left: -12px;
+    width: 33vw;
+    position: relative;
+}
+
+.highlight-sec::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 54px solid #bb2226;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.worth-img {
+    position: absolute;
+    bottom: -13px;
+    right: 300px;
+    z-index: 1;
+    /*width: 200px;*/
+}
+
+/***** RIGHSIDE RELATED LINKS CSS START ****/
+
+.contact-call {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+.link-title {
+    background: #2d337b;
+    display: block;
+    padding: 30px 34px;
+    margin-bottom: 0;
+}
+
+.custom-list-style2 li {
+    font-family: Gotham;
+    font-size: 14px;
+    list-style: none;
+}
+
+.custom-list-style2 li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    background: #1b1f52;
+    border-bottom: 1px solid #343a7b;
+    position: relative;
+    padding-left: 45px;
+    z-index: 1;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.custom-list-style2 li a::before {
+    content: '';
+    height: 2px;
+    width: 5px;
+    background: #ddd;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-list-style2 li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #343a7b;
+    z-index: -1;
+    transition: width .4s;
+}
+
+.custom-list-style2 li a:hover::after {
+    width: 100%;
+}
+
+.custom-list-style2 li a.br-6:hover::after {
+    width: 100%;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/***** RIGHTSIDE RELATED LINKS CSS END ****/
+
+#tabs {
+    position: sticky;
+    top: 120px;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+    border-color: transparent;
+}
+
+.nav-link.active .schol-tab {
+    background: #333333;
+    color: #fff;
+}
+
+.nav-link.active .schol-tab::after {
+    content: "";
+    position: absolute;
+    top: 41%;
+    right: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #333;
+    border-bottom: 8px solid transparent;
+}
+
+.nav-link.active:hover .schol-tab {
+    background: #333333;
+    color: #fff;
+}
+
+.nav-link:hover .schol-tab {
+    background: #bb2226;
+    color: #fff;
+}
+
+.schol-tab {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    background: #fff;
+    color: #111;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+}
+
+.schol-tab::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: 0;
+    color: #bb2226;
+    font-size: 14px;
+    font-family: CircularStdBook;
+}
+
+.accordion-button::before {
+    position: absolute;
+    top: -8px;
+    left: 0;
+    background: #bb2226;
+    font-size: 12px;
+    font-family: CircularStdBook;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1px 2px;
+}
+
+#tab-A .schol-tab,
+#tab-B .schol-tab,
+#tab-V .schol-tab,
+#tab-P .schol-tab,
+#tab-X .schol-tab {
+    margin-top: 25px;
+}
+
+#tab-A .schol-tab,
+#tab-C .schol-tab,
+#tab-O .schol-tab,
+#tab-X .schol-tab {
+    margin-bottom: 25px;
+}
+
+#tab-X .schol-tab::before,
+#heading-X .accordion-button::before {
+    content: "ABET Accreditation";
+}
+
+#tab-A .schol-tab::before,
+#heading-A .accordion-button::before {
+    content: "NAAC Accreditation";
+}
+
+#tab-B .schol-tab::before,
+#heading-B .accordion-button::before {
+    content: "Recognition";
+}
+
+#tab-V .schol-tab::before,
+#heading-V .accordion-button::before {
+    content: "Membership & Approvals";
+}
+
+#tab-P .schol-tab::before,
+#heading-P .accordion-button::before {
+    content: "International Memberships";
+}
+
+.schol-tab img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.schol-tab p {
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+.git-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.schol-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.schol-details {
+    padding: 25px 35px;
+    background: #fff;
+    max-height: 180px;
+}
+
+.schol-details h3 {
+    font-size: 18px;
+}
+
+.schol-details h4 {
+    font-size: 16px;
+}
+
+.scholar-slider .slick-slide {
+    margin: 0 15px;
+}
+
+/**** Governanace page CSS ******/
+
+.accordion-header {
+    font-family: CircularStd;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #1b1f52;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:hover {
+    background: #20397126;
+}
+
+.accordion-button:not(.collapsed):hover {
+    background-color: #1b1f52;
+}
+
+.accordion-button:focus {
+    border-color: rgba(0, 0, 0, .125);
+    box-shadow: none;
+}
+
+.accordion-button {
+    text-align: left;
+    position: relative;
+}
+
+p,
+li {
+    font-family: Gotham;
+    font-size: 14px;
+}
+
+/***** TAB / ACCORDION ******/
+
+.nav-tabs {
+    display: none;
+}
+
+@media(min-width:992px) {
+    .nav-tabs {
+        display: flex;
+    }
+    .accordion-item {
+        border: none;
+    }
+    .accordion-item .accordion-button {
+        display: none;
+    }
+    .accordion-item .collapse {
+        display: block;
+    }
+    .accordion-collapse {
+        border: none;
+    }
+    .accordion-body {
+        padding: 45px;
+        box-shadow: 0px 0px 5px #ccc;
+    }
+    .af-title.text-muted {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+/****** Instiution responsibility page css *******/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: CircularStd;
+}
+
+.text360 span {
+    color: #fff;
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .inner-banner-content {
+        width: 55vw;
+    }
+    .banner-h2 {
+        height: 295px;
+    }
+    .inner-banner-content h2 span {
+        font-size: 30px;
+        margin-top: 13px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .inner-banner-content h2 span {
+        font-size: 38px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .inner-banner-content h2 span {
+        font-size: 44px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .inner-banner-content h2 span {
+        font-size: 44px;
+    }
+    .highlight-sec {
+        width: 28vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .inner-banner-content h2 span {
+        margin-top: -2px;
+    }
+    .highlight-sec {
+        width: 30vw;
+    }
+    .af-title.text-muted {
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .worth-img {
+        bottom: -6px;
+        right: 40px;
+        width: 30%;
+    }
+    .banner-img {
+        background-position: 45%;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-h2 {
+        height: 260px;
+    }
+    .highlight-sec {
+        width: 64vw;
+    }
+    .banner-img {
+        background-position: 31%;
+    }
+    .worth-img {
+        bottom: unset;
+        right: 0;
+        top: 84vh;
+        width: 60%;
+    }
+    .tab-content>.tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+    .fee-table thead tr th,
+    .fee-table tbody tr td {
+        white-space: normal;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .git-box p {
+        color: #fff !important;
+    }
+}

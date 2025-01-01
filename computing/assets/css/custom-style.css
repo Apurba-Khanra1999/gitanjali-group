@@ -1,0 +1,300 @@
+/* BE - Lateral Entry Program CSS */
+
+.course-list {
+    column-count: 2;
+}
+
+/* End of BE - Lateral Entry Program CSS */
+
+/* Placement Numbers CSS Start */
+
+.placement-figures {
+    background: var(--bgcolor-gray);
+    padding-top: 30px;
+}
+
+.pl-indi-num {
+    height: 164px;
+}
+
+.pl-indi-num span {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--secondary-font);
+    color: var(--text-color-d-gray);
+    line-height: 34px;
+    display: block;
+}
+
+.pl-indi-num span sub {
+    position: relative;
+    bottom: 0px;
+    left: -2px;
+    font-size: 18px;
+}
+
+.pl-indi-num p {
+    color: var(--text-color-dark);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* Placement Numbers CSS End */
+
+.mt-290x {
+    z-index: unset !important;
+    /***** FIX FOR MODAL Z-INDEX ISSUE *****/
+}
+
+.p-b-6 {
+    padding-bottom: 60px;
+}
+
+/* Modal Popup CSS Start */
+
+.keyword-tags .modal-header {
+    background: var(--bgcolor-red);
+    color: var(--text-color-white);
+}
+
+.keyword-tags .btn-danger {
+    background-color: var(--bgcolor-red);
+    border-color: var(--bgcolor-red);
+}
+
+/* Modal Popup CSS End */
+
+/* Download Brochure CSS Start */
+
+.brochureDiv {
+    padding: 50px;
+    position: relative;
+}
+
+.dwnld-btn {
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    border-radius: 8px;
+    color: var(--text-color-red);
+    display: inline-flex;
+}
+
+/* Download Brochure CSS End */
+
+/* Research Groups CSS End */
+
+.glance-section.half-height {
+    padding-bottom: 0;
+}
+
+.glance-section.half-height::before {
+    content: '';
+    background: var(--bgcolor-white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    z-index: 1;
+}
+
+/* specialization-spite */
+
+.specialization-sprite {
+    background: url(../../assets/images/specialization-sprite.png) no-repeat top left;
+    width: 30px;
+    height: 30px;
+}
+
+.specialization-sprite.project-icon {
+    background-position: 0 0;
+}
+
+.specialization-sprite.stocks-icon {
+    background-position: 0 -32px;
+}
+
+.specialization-sprite.wealth-icon {
+    background-position: 0 -64px;
+}
+
+.specialization-sprite.credit-icon {
+    background-position: 0 -96px;
+}
+
+/*specialization-spite CSS End*/
+
+/* Course-sprite */
+
+.course-sprite {
+    background: url(../../assets/images/course-sprite-computing.png) no-repeat top left;
+    width: 40px;
+    height: 35px;
+    padding-right: 60px;
+}
+
+.course-sprite.bca-icon {
+    background-position: 0 0;
+    width: 25px;
+    height: 37px;
+}
+
+.course-sprite.computer_science-icon {
+    background-position: 0 -42px;
+}
+
+.course-sprite.mca-icon {
+    background-position: 0 -77px;
+}
+
+/* Course-sprite Css End */
+
+.pageBanner-inner__content.head-sm.inner-content h4 {
+    line-height: 28px;
+}
+
+/* Responsive CSS Start */
+
+/*@media (min-width: 992px) {
+    .dwnld-btn { position: unset; }
+}*/
+
+@media only screen and (max-width: 1919px) {
+    .rankingHeading h4 {
+        font-size: 20px;
+    }
+    .rankingData__box h2 small {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 1700px) {
+    .rankingData {
+        height: 340px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .rankingData {
+        height: 315px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .rankingHeading h4 {
+        font-size: 17px;
+    }
+    .rankingData__box h2 {
+        font-size: 13px;
+        line-height: 14px;
+    }
+    .rankingData {
+        height: 276px;
+    }
+    .rankingData {
+        height: 267px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .rankingHeading h4 {
+        font-size: 15px;
+    }
+    .rankingData {
+        height: 304px;
+    }
+    .rankingsBlock__slider--item__in {
+        padding: 15px;
+    }
+    .rankingData {
+        height: 334px;
+    }
+    .indiaToday-logo {
+        right: 15px;
+        bottom: 15px;
+    }
+    .rankingData {
+        height: 244px;
+    }
+    .earlybird-section {
+        background-position: 75% 0 !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .brochureDiv {
+        padding: 20px 15px;
+        text-align: center;
+    }
+    .dwnld-btn {
+        margin-top: 20px;
+        position: unset;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .pl-indi-num span {
+        font-size: 32px;
+    }
+    .rankingData__box h3 {
+        font-size: 40px;
+        line-height: 32px;
+    }
+    .rankingData__box h2 {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pl-indi-num {
+        height: 100px;
+    }
+    .placement-figures h2 {
+        margin-bottom: 20px;
+    }
+    .rankingData {
+        max-width: 340px;
+    }
+    .rankingData {
+        height: 280px;
+    }
+    .elummni-section,
+    .earlybird-section {
+        padding: 50px 0
+    }
+    .earlybird-section__content {
+        background: var(--light-off-white-opacity-bg);
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .placement-figures {
+        padding-bottom: 30px;
+    }
+    .rankingData {
+        height: 300px;
+    }
+    .rankingData__box span {
+        font-size: 9px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .course-list {
+        column-count: 1;
+    }
+    .rankingData__box h2 {
+        font-size: 12px;
+        line-height: 13px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .pl-indi-num p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

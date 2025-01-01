@@ -1,0 +1,972 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #111;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #111;
+}
+
+.m-wrapper h1,
+.m-wrapper h2,
+.m-wrapper h3,
+.m-wrapper h4,
+.m-wrapper h5,
+.m-wrapper h6 {
+    font-weight: bold;
+}
+
+.iservice {
+    position: relative;
+}
+
+.video-play-button {
+    position: relative;
+    z-index: 10;
+    top: 0%;
+    left: 0%;
+    /*transform: translateX(-50%) translateY(-50%);*/
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /*background: #fa183d;*/
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+
+.video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #e82c30;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: #e82c30;
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.video-play-button:hover:after {
+    background-color: darken(#fa183d, 10%);
+}
+
+.video-play-icon {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin: auto;
+}
+
+.video-play-icon a {
+    display: inline-block;
+}
+
+.video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 26px solid #fff;
+    border-top: 16px solid transparent;
+    border-bottom: 16px solid transparent;
+    top: 6px;
+    left: 3px;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
+}
+
+.homepage {
+    padding-right: 0 !important;
+}
+
+.itextser .modal-body p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.itextser .modal-body p span {
+    color: #f68400;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.bg-blue {
+    background-color: #04bcde;
+}
+
+.bg-violet {
+    background-color: #835dbe;
+}
+
+.bg-red {
+    background-color: #f6434e;
+}
+
+.bg-yellow {
+    background-color: #f1b444;
+}
+
+.bg-green {
+    background-color: #00c775;
+}
+
+.bg-gray {
+    background-color: #e9e9e9;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-light-yellow {
+    background-color: #f8f2c8;
+}
+
+.slide img {
+    opacity: 0.2;
+}
+
+.slide {
+    position: relative;
+}
+
+.assured-txt {
+    margin: auto 0;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 250px;
+}
+
+.placement-results {
+    border: 1px solid rgba(209, 254, 255, .5);
+    padding: 15px;
+    width: 55%;
+}
+
+.placement-results tr th {
+    color: #d1feff;
+    font-size: 22px;
+    font-weight: 900;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid rgba(209, 254, 255, .5);
+}
+
+.placement-results tr td {
+    font-size: 30px;
+    font-weight: 900;
+    color: #d1feff;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid rgba(209, 254, 255, .5);
+}
+
+.assured-txt h1 {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.assured-txt h2 {
+    font-size: 24px;
+}
+
+.assured-txt h2 span {
+    font-size: 54px;
+    line-height: 58px;
+}
+
+.assured-txt h3 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.assured-txt p {
+    color: #000;
+    font-size: 16px;
+}
+
+.slide1 h1 {
+    color: #fff5da;
+}
+
+.slide2 h1 {
+    color: #ffd8d8;
+}
+
+.slide3 h1 {
+    color: #d1feff;
+}
+
+.slide1 h2 {
+    color: #fff5da;
+}
+
+.slide2 h2 {
+    color: #ffd8d8;
+}
+
+.slide3 h2 {
+    color: #d1feff;
+}
+
+.slide1 h3 {
+    color: #fff5da;
+}
+
+.slide2 h3 {
+    color: #ffd8d8;
+}
+
+.slide3 h3 {
+    color: #d1feff;
+}
+
+.slide1 p {
+    color: #fff5da;
+}
+
+.slide2 p {
+    color: #ffd8d8;
+}
+
+.slide3 p {
+    color: #d1feff;
+}
+
+a.btn-custom {
+    background: #fff;
+    border-radius: 3px;
+    color: #333;
+    padding: 7px 25px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+
+a.btn-custom1 {
+    background: #cd2122;
+    color: #fff;
+    padding: 9px 46px;
+}
+
+a.btn-custom:hover {
+    background: #cd2122;
+    color: #fff;
+}
+
+a.btn-custom1:hover {
+    background: #ffcb0b;
+    color: #333;
+}
+
+.section.bg-testimonial.bg-fixed {
+    position: relative;
+}
+
+.testimonials-shapes {
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.testimonials-shapes.one {
+    border-bottom: 132px solid rgba(247, 180, 0, 0.8);
+    border-left: 500px solid transparent;
+    border-right: 208px solid transparent;
+    bottom: -1px;
+    right: 55%;
+}
+
+.testimonials-shapes.two {
+    border-bottom: 132px solid rgba(239, 43, 85, 0.8);
+    border-left: 208px solid transparent;
+    border-right: 208px solid transparent;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonials-shapes.three {
+    border-bottom: 132px solid rgba(47, 191, 211, 0.8);
+    border-left: 208px solid transparent;
+    border-right: 500px solid transparent;
+    bottom: -1px;
+    right: 0;
+}
+
+.owl-pagination {
+    position: relative;
+    z-index: 999;
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: #fff none repeat scroll 0 0;
+    width: 34px;
+    border-radius: 0;
+}
+
+.owl-theme .owl-controls .owl-page {
+    display: block;
+}
+
+.owl-theme .owl-controls {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.owl-theme .owl-controls {
+    bottom: 49%;
+}
+
+.sservice {
+    padding: 35px 0;
+    width: 100%;
+    background: #2fbfd3;
+}
+
+.sservice-first {
+    background: #fff;
+    color: #333;
+}
+
+.sservice hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #3ccee2;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.sservice h1 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.sservice p {
+    line-height: 20px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.sservice-first h1,
+.sservice-first p {
+    color: #333;
+}
+
+.stu-welfare-services {
+    background: #f7f7f7;
+    padding: 60px 0;
+    width: 100%;
+}
+
+.stu-welfare-services ul li {
+    border-right: 1px solid #ededec;
+    color: #858585;
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: -0.1px;
+    line-height: 22px;
+    margin-right: 18px;
+    min-height: 161px;
+    padding: 0 24px;
+    text-align: center;
+    vertical-align: top;
+    width: 23%;
+}
+
+.stu-welfare-services ul li a {
+    color: #858585;
+}
+
+.stu-welfare-services ul li a:hover {
+    color: #b92a24;
+}
+
+.stu-welfare-services ul li span {
+    display: block;
+}
+
+.stu-welfare-services ul li:last-child {
+    border: 0 none;
+}
+
+.stu-welfare-services ul li span img {
+    display: inline-block;
+}
+
+.stu-welfare-services ul li strong {
+    display: block;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 12px;
+    text-transform: uppercase;
+}
+
+.moreser {
+    width: 100%;
+}
+
+.swelfare-cont {
+    bottom: 0;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(26, 26, 26, 0) 0px, rgba(26, 26, 26, 0.85) 100%) repeat scroll 0 0;
+}
+
+.swelfare-cont h2 {
+    color: #fff;
+    font-size: 17px;
+    font-family: open_sanssemibold;
+}
+
+.swelfare-cont p {
+    color: #fff;
+}
+
+.swelfare-left {
+    position: relative;
+}
+
+.swelfare-right {
+    overflow: hidden;
+    height: 168px;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.img2>img {
+    width: 100%;
+}
+
+.itextser {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.itextser h2 {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.itextser P {
+    color: #333;
+    font-size: 13px;
+    line-height: 17px;
+    padding: 0px;
+}
+
+a.butimg {
+    /*margin: 0 !important;
+    padding: 4px 12px !important;*/
+}
+
+a.cu-btn {
+    font-size: 12px;
+    text-transform: none;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #bb2226;
+    color: #fff;
+    border-color: #bb2226;
+}
+
+.btn-primary:hover {
+    background: #161a4d;
+    color: #fff;
+    border-color: #161a4d;
+}
+
+.students-welfare-address {
+    width: 100%;
+}
+
+.students-welfare-address p {
+    font-size: 14px;
+}
+
+ul.swelfare-icon {
+    margin: 20px 0 0 0;
+}
+
+ul.swelfare-icon li {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    text-align: center;
+}
+
+ul.swelfare-icon li a {
+    cursor: pointer;
+}
+
+ul.swelfare-icon .swelfare-icon-img {
+    display: block;
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+ul.swelfare-icon .swelfare-icon-img>img {
+    width: 60%;
+}
+
+ul.swelfare-icon li p {
+    font-size: 11px;
+    color: #fff;
+}
+
+.swelfare-icon .modal-content {
+    text-align: left;
+    color: #333;
+}
+
+.swelfare-icon .modal-content p {
+    color: #111;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.students-welfare-address .modal-title {
+    color: #111;
+    font-size: 18px;
+}
+
+.slide-wrap {
+    position: relative;
+}
+
+.section.bg-testimonial.bg-fixed {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    background: transparent;
+    border: none;
+    width: 8.5%;
+}
+
+/* new css */
+
+.text360 span {
+    color: #fff;
+}
+
+.modal-title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #111;
+}
+
+.modal-open .modal {
+    background: rgba(0, 0, 0, .8);
+    padding-right: 0;
+}
+
+.vdo-modal .modal-body {
+    padding: 0
+}
+
+.vdo-modal .modal-content {
+    box-shadow: none;
+    background: 0 0;
+    border-radius: 0;
+    border: 0
+}
+
+.vdo-modal .modal-dialog {
+    width: 900px
+}
+
+.vdo-popup iframe {
+    width: 100%;
+    height: 500px
+}
+
+.vdo-modal .modal-dialog {
+    width: 900px;
+}
+
+.cultural-style {
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    border: 1px dashed #2fbfd3;
+    padding: 8px;
+}
+
+a.btn-custom.z-i {
+    z-index: 9 !important;
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .swelfare-right {
+        height: 137px;
+    }
+    .itextser h2 {
+        font-size: 13px;
+    }
+    .assured-txt {
+        top: 190px;
+    }
+    .assured-txt h2,
+    .slide1 h1 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .assured-txt h2 {
+        margin-bottom: 10px;
+    }
+    .assured-txt h2 span,
+    .slide1 h1 span {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .assured-txt h3 {
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    a.btn-custom {
+        margin-top: 5px;
+    }
+    .testimonials-shapes.one {
+        border-bottom: 99px solid rgba(247, 180, 0, 0.8);
+    }
+    .testimonials-shapes.two {
+        border-bottom: 99px solid rgba(239, 43, 85, 0.8);
+    }
+    .testimonials-shapes.three {
+        border-bottom: 99px solid rgba(47, 191, 211, 0.8);
+        border-right: 330px solid transparent;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .swelfare-left {
+        margin-bottom: 25px;
+    }
+    .swelfare-cont {
+        text-align: center;
+    }
+    .swelfare-cont h2 {
+        font-size: 13px;
+    }
+    .itextser h2 {
+        font-size: 13px;
+    }
+    .itextser {
+        min-height: 150px;
+    }
+    .assured-txt {
+        top: 170px;
+        padding: 0;
+    }
+    .assured-txt h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .assured-txt h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .assured-txt h2 span {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .assured-txt h3 {
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    a.btn-custom {
+        margin-top: 3px;
+        padding: 5px 15px;
+    }
+    .testimonials-shapes.three {
+        border-right: 200px solid transparent;
+    }
+    .testimonials-shapes.one {
+        border-bottom: 42px solid rgba(247, 180, 0, 0.8);
+    }
+    .testimonials-shapes.two {
+        border-bottom: 42px solid rgba(239, 43, 85, 0.8);
+    }
+    .testimonials-shapes.three {
+        border-bottom: 42px solid rgba(47, 191, 211, 0.8);
+    }
+    .owl-theme .owl-controls {
+        bottom: 0;
+        left: 40%;
+    }
+    .owl-theme .owl-controls .owl-page span {
+        height: 8px;
+    }
+    .owl-theme .owl-controls .owl-page {
+        display: inline-block;
+    }
+    .vdo-modal .modal-dialog {
+        width: 600px;
+    }
+    .vdo-popup iframe {
+        height: 330px;
+    }
+}
+
+@media (max-width:767px) {
+    .swelfare-left {
+        margin-bottom: 25px;
+    }
+    .swelfare-cont {
+        text-align: center;
+    }
+    .swelfare-cont h2 {
+        font-size: 14px;
+    }
+    .students-welfare-address {
+        text-align: center;
+    }
+    ul.swelfare-icon {
+        margin: 50px 0 0;
+    }
+    ul.swelfare-icon .swelfare-icon-img>img {
+        width: 50%;
+    }
+    ul.swelfare-icon li {
+        width: 28%;
+    }
+    .itextser {
+        padding: 12px;
+    }
+    .itextser h2 {
+        font-size: 12px;
+    }
+    .sservice p {
+        font-size: 11px;
+    }
+    .itextser h2 {
+        font-size: 12px;
+    }
+    .itextser {
+        min-height: 116px;
+        padding: 7px;
+    }
+    .assured-txt {
+        top: 130px;
+        padding: 0;
+    }
+    .assured-txt h1 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .assured-txt h2 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+    .assured-txt h2 span {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .assured-txt h3 {
+        margin-top: 15px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    a.btn-custom {
+        margin-top: 5px;
+        padding: 3px 15px;
+        font-size: 13px;
+    }
+    .testimonials-shapes.three {
+        border-right: 100px solid transparent;
+    }
+    .testimonials-shapes.one {
+        border-bottom: 32px solid rgba(247, 180, 0, 0.8);
+        right: 40%;
+    }
+    .testimonials-shapes.two {
+        border-bottom: 32px solid rgba(239, 43, 85, 0.8);
+        left: 50%;
+    }
+    .testimonials-shapes.three {
+        border-bottom: 32px solid rgba(47, 191, 211, 0.8);
+    }
+    .owl-theme .owl-controls {
+        bottom: 0;
+        left: 40%;
+    }
+    .owl-theme .owl-controls .owl-page span {
+        height: 8px;
+    }
+    .owl-theme .owl-controls .owl-page {
+        display: inline-block;
+    }
+    .students-welfare-address p {
+        font-size: 14px !important;
+    }
+    .stu-welfare-services ul li {
+        border-bottom: 1px solid #ededec;
+        border-right: 0 none;
+        font-size: 15px;
+        margin: 0 5%;
+        min-height: 150px;
+        padding: 25px 0;
+        width: 39%;
+    }
+    .stu-welfare-services ul li strong {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .stu-welfare-services ul li:nth-of-type(3n),
+    .stu-welfare-services ul li:last-child {
+        border-bottom: 0 none;
+    }
+    .vdo-modal .modal-dialog {
+        width: 480px;
+        margin: 30px auto;
+    }
+    .vdo-popup iframe {
+        height: 265px;
+    }
+}
+
+@media (max-width:567px) {
+    .vdo-modal .modal-dialog {
+        width: 380px;
+        margin: 30px auto;
+    }
+    .vdo-popup iframe {
+        height: 245px;
+    }
+}
+
+@media (max-width:500px) {
+    .assured-txt {
+        top: 35px;
+        padding: 0;
+    }
+}
+
+@media (max-width:480px) {
+    .col-cust-service {
+        width: 100% !important;
+        text-align: center;
+    }
+    .col-moreser {
+        width: 100% !important;
+    }
+    ul.swelfare-icon li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    ul.swelfare-icon .swelfare-icon-img>img {
+        width: 30%;
+    }
+    .itextser {
+        min-height: auto;
+        padding: 12px;
+    }
+    .slide-wrap {
+        /*display:none;*/
+    }
+    .testimonials-shapes.one {
+        border-bottom: 52px solid rgba(247, 180, 0, 0.8);
+    }
+    .testimonials-shapes.two {
+        border-bottom: 52px solid rgba(239, 43, 85, 0.8);
+        left: 20%;
+    }
+    .testimonials-shapes.three {
+        border-bottom: 52px solid rgba(47, 191, 211, 0.8);
+    }
+    .owl-theme .owl-controls {
+        left: 30%;
+    }
+    .itextser h2 {
+        font-size: 14px;
+    }
+    .sservice p {
+        font-size: 13px;
+    }
+    .stu-welfare-services ul li {
+        border-bottom: 1px solid #ededec;
+        border-right: 0 none;
+        margin: 0;
+        min-height: auto;
+        padding: 25px 0;
+        width: 100%;
+    }
+    .stu-welfare-services ul li:nth-of-type(3n) {
+        border-bottom: 1px solid #ededec;
+    }
+    .vdo-modal .modal-dialog {
+        width: 300px;
+        margin: 30px auto;
+    }
+    .vdo-popup iframe {
+        height: 165px;
+    }
+    .assured-txt {
+        display: none;
+    }
+}

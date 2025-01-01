@@ -1,0 +1,512 @@
+@media only screen and (max-width: 1365px) {
+    .header-area .header-shape-tow {
+        left: 28%;
+    }
+    .header-area .header-shape-one img {
+        width: 250px;
+    }
+    .header-area .header-shape-fore img {
+        width: 266px;
+    }
+    .header-area .header-shape-three {
+        left: 140px;
+        bottom: 50px;
+    }
+    .sec-top {
+        margin-top: -2rem;
+    }
+    .header-area .header-shape-fore {
+        bottom: -24px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .header-area .header-shape-tow {
+        top: 66px;
+        left: 28%;
+    }
+    .header-area .header-shape-one img {
+        width: 250px;
+    }
+    .header-area .header-shape-fore img {
+        width: 236px;
+    }
+    .header-area .header-shape-three {
+        left: 140px;
+        bottom: 40px;
+    }
+    .bot-grid1 {
+        left: 1%;
+        bottom: 37%;
+    }
+    .bot-grid2 {
+        right: 9%;
+        bottom: 17%;
+    }
+    #gtco-about .heading .subtle-text {
+        top: 8px;
+        font-size: 148px;
+    }
+    .header-area .header-shape-fore {
+        bottom: -24px;
+    }
+    .sec-top {
+        margin-top: -7rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-banner .banner-content1 .banner-title {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .header-banner .banner-content1 .sub-title {
+        font-size: 24px;
+    }
+    .header-banner .banner-content1 {
+        margin-top: 0%;
+    }
+    .header-area .header-shape-tow {
+        top: 80px;
+    }
+    .header-area .header-shape-one img {
+        width: 250px;
+    }
+    .header-area .header-shape-fore img {
+        width: 236px;
+    }
+    .header-area .header-shape-fore {
+        left: 48%;
+        bottom: 36px;
+    }
+    .header-area .header-shape-three {
+        left: 120px;
+        bottom: 66px;
+    }
+    #gtco-about .heading .subtle-text {
+        top: -20px;
+        font-size: 148px;
+    }
+    .sec-top {
+        margin-top: -18rem;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-area .header-shape-three {
+        left: 40px;
+        bottom: 80px;
+    }
+    .header-area .header-shape-fore {
+        left: 48%;
+        bottom: 66px;
+    }
+    .bot-grid {
+        margin-top: 16px;
+    }
+    .bot-grid2 {
+        right: 0%;
+        bottom: 0%;
+    }
+    .bot-grid1 {
+        left: 0%;
+        bottom: 0%;
+    }
+    .wthree_pvt_title {
+        margin-bottom: 3em;
+    }
+    .img-grid {
+        max-width: 640px;
+        margin: 0 auto 2em;
+    }
+    .video-play-ico {
+        transform: translateX(0%) translateY(38%);
+    }
+    .port-desc {
+        height: 52px;
+    }
+    .port-desc1 {
+        height: 102px;
+    }
+    .header-area .header-shape-one img {
+        width: 250px;
+    }
+    .header-area .header-shape-fore img {
+        width: 220px;
+    }
+    .header-area .header-shape-tow {
+        top: 60px;
+        left: 30%;
+    }
+    #gtco-about .heading .subtle-text {
+        top: -18px;
+        font-size: 148px;
+        left: 280px;
+    }
+    .webpage__about-section {
+        padding: 60px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bot-grid {
+        margin-top: 10px;
+    }
+    .bot-grid2 {
+        right: 0%;
+        bottom: 0%;
+    }
+    .bot-grid1 {
+        left: 0%;
+        bottom: 0%;
+    }
+    p.sub-title {
+        margin: 0.5em auto -24px;
+        width: 100%;
+        font-size: 15px;
+    }
+    h6.main-title-w3pvt {
+        font-weight: 400;
+    }
+    .port-desc {
+        height: 50px;
+    }
+    h3.tittle-wthree,
+    .feature h3 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 34px;
+    }
+    .bottom-banner-w3layouts {
+        padding: 3em 0;
+    }
+    h6.main-title-w3pvt1 {
+        font-weight: 400;
+    }
+    .banner-bottom {
+        background: none !important;
+        margin-top: 10px;
+    }
+    .header-area .header-shape-one img {
+        width: 180px;
+    }
+    .header-area .header-shape-tow {
+        left: 60%;
+        width: 60px;
+    }
+    .header-area .header-shape-three {
+        left: 132px;
+        bottom: 15px;
+    }
+    .header-area .header-shape-three img {
+        width: 80px;
+        bottom: 200px;
+    }
+    .header-area .header-shape-fore {
+        left: 95%;
+        bottom: 88px;
+    }
+    .header-area .header-shape-fore img {
+        bottom: -60px;
+        width: 210px;
+    }
+    .bg_cover {
+        display: none;
+    }
+    .header-banner .banner-content1 {
+        top: 60px;
+    }
+    .sec-top {
+        margin-top: -18rem;
+    }
+    #gtco-about .heading .subtle-text {
+        left: 160px;
+        font-size: 114px;
+        top: -30px;
+    }
+    .port-desc1 {
+        height: 104px;
+    }
+    .video-play-ico {
+        transform: translateX(0%) translateY(36%);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .bot-grid {
+        margin-top: 10px;
+    }
+    .bot-grid2 {
+        right: 0%;
+        bottom: 0%;
+    }
+    .bot-grid1 {
+        left: 0%;
+        bottom: 0%;
+    }
+    p.sub-title {
+        margin: 0.5em auto -24px;
+        width: 100%;
+        font-size: 14px;
+    }
+    h6.main-title-w3pvt {
+        font-weight: 400;
+    }
+    .port-desc {
+        height: 68px;
+    }
+    .bottom-banner-w3layouts {
+        padding: 3em 0;
+    }
+    h1.w3pvt-title {
+        font-size: 28px;
+    }
+    h6.main-title-w3pvt1 {
+        font-weight: 400;
+    }
+    .banner-bottom {
+        background: none !important;
+        margin-top: 10px;
+    }
+    .header-area .header-shape-one img {
+        width: 180px;
+    }
+    .header-area .header-shape-tow {
+        left: 60%;
+        width: 60px;
+    }
+    .header-area .header-shape-three {
+        left: 66px;
+        bottom: 55px;
+    }
+    .header-area .header-shape-three img {
+        width: 80px;
+        bottom: 200px;
+    }
+    .header-area .header-shape-fore {
+        left: 92%;
+        bottom: 88px;
+    }
+    .header-area .header-shape-fore img {
+        bottom: -60px;
+        width: 210px;
+    }
+    .header-banner .banner-content1 .sub-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .bg_cover {
+        display: none;
+    }
+    .header-banner .banner-content1 {
+        top: 48px;
+    }
+    .sec-top {
+        margin-top: -18rem;
+    }
+    #gtco-about .heading .subtle-text {
+        left: 100px;
+        font-size: 110px;
+        top: -30px;
+    }
+    .port-desc1 {
+        height: 104px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .bot-grid {
+        margin-top: 10px;
+    }
+    .bot-grid2 {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .bot-grid2 {
+        right: 0%;
+        bottom: -6%;
+    }
+    .bot-grid1 {
+        position: relative;
+    }
+    .bot-grid1 {
+        left: 0%;
+        bottom: -3%;
+    }
+    p.sub-title {
+        margin: 0.5em auto -24px;
+        width: 100%;
+        font-size: 14px;
+    }
+    h6.main-title-w3pvt {
+        font-weight: 400;
+    }
+    .port-desc {
+        height: 68px;
+    }
+    .bottom-banner-w3layouts {
+        padding: 3em 0;
+    }
+    h1.w3pvt-title {
+        font-size: 28px;
+    }
+    h6.main-title-w3pvt1 {
+        font-weight: 400;
+    }
+    .banner-bottom {
+        background: none !important;
+        margin-top: 10px;
+    }
+    .header-area .header-shape-one img {
+        width: 180px;
+    }
+    .header-area .header-shape-tow {
+        left: 60%;
+        width: 60px;
+    }
+    .header-area .header-shape-three {
+        left: 66px;
+        bottom: 88px;
+    }
+    .header-area .header-shape-three img {
+        width: 80px;
+        bottom: 200px;
+    }
+    .header-area .header-shape-fore {
+        left: 96%;
+        bottom: 66px;
+    }
+    .header-area .header-shape-fore img {
+        bottom: -60px;
+        width: 210px;
+    }
+    .header-banner .banner-content1 .banner-title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .header-banner .banner-content1 .sub-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .bg_cover {
+        display: none;
+    }
+    .header-banner .banner-content1 {
+        top: 36px;
+    }
+    .sec-top {
+        margin-top: -18rem;
+    }
+    #gtco-about .heading .subtle-text {
+        left: 108px;
+        font-size: 90px;
+        top: -25px;
+    }
+    .port-desc1 {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .bot-grid {
+        margin-top: 10px;
+    }
+    .bot-grid2 {
+        position: relative;
+        margin-bottom: 30px;
+    }
+    .bot-grid2 {
+        right: 0%;
+        bottom: -6%;
+    }
+    .bot-grid1 {
+        position: relative;
+    }
+    .bot-grid1 {
+        left: 0%;
+        bottom: -3%;
+    }
+    p.sub-title {
+        margin: 0.5em auto -24px;
+        width: 100%;
+        font-size: 14px;
+    }
+    h6.main-title-w3pvt {
+        font-weight: 400;
+    }
+    .port-desc {
+        height: 68px;
+    }
+    h3.tittle-wthree,
+    .feature h3 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .bottom-banner-w3layouts {
+        padding: 3em 0;
+    }
+    h1.w3pvt-title {
+        font-size: 24px;
+    }
+    h6.main-title-w3pvt1 {
+        font-weight: 400;
+    }
+    .banner-bottom {
+        background: none !important;
+        margin-top: 0px;
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .header-area .header-shape-one img {
+        width: 180px;
+    }
+    .header-area .header-shape-tow {
+        left: 60%;
+        width: 60px;
+    }
+    .header-area .header-shape-three {
+        left: 66px;
+        bottom: 40px;
+    }
+    .header-area .header-shape-three img {
+        width: 80px;
+        bottom: 200px;
+    }
+    .header-area .header-shape-fore {
+        left: 90%;
+        bottom: 50px;
+    }
+    .header-area .header-shape-fore img {
+        bottom: -60px;
+        width: 210px;
+    }
+    .header-banner .banner-content1 .sub-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .bg_cover {
+        display: none;
+    }
+    .header-banner .banner-content1 {
+        top: 50px;
+    }
+    .sec-top {
+        margin-top: -18rem;
+    }
+    .port-desc1 {
+        height: 140px;
+    }
+    .video-play-ico {
+        transform: translateX(0%) translateY(33%);
+    }
+    .testi-heading-new {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    #gtco-about .heading .subtle-text {
+        left: 0px;
+        font-size: 90px;
+        top: -15px;
+    }
+}
